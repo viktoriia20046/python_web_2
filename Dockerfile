@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Вказання команди для запуску програми
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
